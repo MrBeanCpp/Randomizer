@@ -5,3 +5,4 @@
 支持一次互斥抽取多人，以及多次抽取不放回  
 可切换Number/Name模式  
 数字可支持-99999999 ~ 99999999范围  
+![image](https://github.com/MrBeanCpp/Randomizer/blob/main/images/show.jpg)
