@@ -87,7 +87,7 @@ void Widget::readFile(const QString& path)
         QTextStream text(&file);
         text.setCodec("UTF-8"); //*vital
         while (!text.atEnd()) {
-            QString line = text.readLine();
+            QString line = text.readLine().replace(' ', "");
             if (line.contains('*')) { //'*' means Female
                 line.replace('*', "");
                 femaleList << line;
